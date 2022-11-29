@@ -6,12 +6,14 @@ Vocẽ terá  variaveis. Sendo elas:
 3- Distancia en KM de viagem. */
 
 
- //***************************************  DESAFIO  ******************************************* 
+/*--------------------------------------------------------------------------------------------|
+                                    RESOLUCAO - DESAFIO                                           
+---------------------------------------------------------------------------------------------*/ 
 
  const preçoCombustivel = 5.79;
  const combustivelPorKm = 12;
  const distanciaEmKm = 1580 / combustivelPorKm;
 
- let gastoTotalCombustivel =  distanciaEmKm * preçoCombustivel;
+ const gastoTotalCombustivel =  distanciaEmKm * preçoCombustivel;
 
  console.log(gastoTotalCombustivel.toFixed(2)); //toFixed: converte um valor em texto e coloca 2 número de dígitos depois do ponto decimal
