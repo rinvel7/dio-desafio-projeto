@@ -11,7 +11,7 @@
 */
 
 const precoNormal = 100;
-const condicaoPagamento = 3;
+const condicaoPagamento = 2;
 
 
 if(condicaoPagamento === 1) {
