@@ -223,5 +223,106 @@ Ela retorna o aceso direto:
     nome = 'Rina';
     idade = 43;
 
+#   ARRAYS E ESTRUCTURA DE REPETICAO
+
+## ARRAYS
+
+Almacena em uma so variavel, uma colecao datos.
+
+Ele e dinamica, pois permite sustituir, incremeta, remover dados.
+
+Sao representadas por corchetes.
+
+As posicoes de cada elemento comienzao em 0.
+
+Pode comenzar vacio []
+
+Pode ter tipos de dados (string, numeros)
+### SINTAXYS
+
+    const alunos = ['joao, 'vitor', 'Marina'];
+                       0       1       2     -----> posicao
+### IMPRIMIR UMA POSICAO
+
+console.log(alunos[1]) -----> imprime vitor
+
+###  COMO ADICIONAR UN ELEMENTO
+
+    DINAMICAMENTE:
+    alunos.push('Renan'); ----> Adiciona al final
+
+    const alunos = ['joao, 'vitor', 'Marina', 'Renan']; 
+    
+    DIRECTAMENTE:
+    alunos[4] = 'vinicius';
+
+     const alunos = ['joao, 'vitor', 'Marina', 'Renan','Vinicius', ];
+
+### COMO SUSTITUIR
+
+    DINAMICAMENTE:
+    alunos.push('Renan'); 
+
+    DIRECTAMENTE:
+    alunos[3] = 'vinicius';
+
+    const alunos = ['joao, 'vitor', 'Marina', 'Vinicius'];
+### MISTURA DE DADOS
+
+    alunos.push('teste'); 
+    alunos.push('10'); 
+
+### REMOVER DADO
+
+const alunos = ['1', '2', '3'];
+
+console.log(alunos);
+
+console.log(alunos.pop());----> remove a ultima posicao
+
+console.log(alunos);
+
+-----------------------
+const alunos = ['1', '2', '3'];
+
+console.log(alunos);
+
+console.log(alunos.shift());----> remove a primeira posicao
+
+console.log(alunos);
+
+### LONGITUD DE UM ARRAYS
+
+const notas = [];
+
+notas.push(5);-----> 1
+notas.push(5);-----> 2
+notas.push(5);-----> 3
+notas.push(5);-----> 4
+notas.push(5);-----> 5
+
+console.log(notas.length);-----> imprime 5
+
+## ELEMENTOS DE REPETICION
 
 
+for (let index = 0;     index < array.length;     index++) {
+     |____________|    |_____________________|    |______|
+            |                      |                  |
+       DECLARACAO       ESTRUCTURA CONDICIONAL    INCREMENTA
+        do Index        retorna um booleano,      a variavel
+                        ele faze un recorrido     que vai ejecuta
+                        para seguir o no nesce    apos da condicional
+                        for                         
+
+    const element = array[index];
+    
+}
+
+
+
+
+
+
+    
+    
