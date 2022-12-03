@@ -319,9 +319,35 @@ for (let index = 0;     index < array.length;     index++) {
     
 }
 
+# IMPORTACAOES E EXPORTACOES
 
+## FUNCOES AUXILIARES
 
+### FUNCOES CHAVES PARA CODIFICAR
+    GET: Pega uma leitura como se foise um imput de alguem digitando. Sao entradas
+   
+    PRINT = console.log . Sao salidas
 
+### COMO IMPORTAR UM ARQUIVO
+
+Con a palavra chave : require('ruta do aqrquivo que vai ser importado');
+### SINTAXYS
+    const funcoes = require('./funcoes_auxiliares');
+
+### COMO EXPORTAR UM ARQUIVO
+    Criar um objeto com a variavel : modeule.exports, 
+    cuyo metodo  esta exporara um gets, print.
+
+### Object Gets Destroy
+
+const pessoa = {
+    nome: 'vitor'
+}
+
+//eles sao equivalentes
+const { nome } = pessoa;
+
+const nome = pessoa.nome;
 
 
     
